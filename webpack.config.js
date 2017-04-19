@@ -10,6 +10,16 @@ module.exports = {
           presets: ["react", "latest"]
         }
       }
+    },
+    {
+      test: /\.(scss|sass|css)/,
+      use: [{
+        loader: "style-loader"
+      }, {
+        loader: "css-loader"
+      }, {
+        loader: "sass-loader"
+      }]
     }]
   },
   output: {

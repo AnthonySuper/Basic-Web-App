@@ -8,3 +8,7 @@ Make sure yarn is installed, then run `yarn` to update the dependencies.
 Then, run `webpack-dev-server` and everything will work!
 Hopefully.
 
+You can also run `yarn run serve`, which just does the above.
+
+## How do I test it?
+`yarn run test`

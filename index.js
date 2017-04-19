@@ -1,3 +1,4 @@
+import './style.scss';
 import React from 'react';
 import HelloWorld from './hello_world.jsx';
 import ReactDOM from 'react-dom';
