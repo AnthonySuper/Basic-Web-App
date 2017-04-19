@@ -1,0 +1,6 @@
+# Trust me, you *really* do not want this in your repo
+# It'll be a gigabyte within a week
+node_modules/* 
+
+# Get rid of build files
+build/*
